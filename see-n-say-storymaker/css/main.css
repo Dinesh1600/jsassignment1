@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* Assignment 1 | COMP1073 Client-Side JavaScript*/
+
+.button{
+    padding: 12px 12px;
+    color: white;
+    background-color: black;
+    border-radius: 3px;
+    box-shadow: 1px 1px 3px black;
+    transition: all 0.3s;
+    margin-right: 10px;
+}
+.button:hover{
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+}
+.part1,.part2{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(black,white);
+}
+.part2{
+    background-image:linear-gradient(white ,black) ;
+}
+#text,#story{
+    text-align: center;
+    font-size: 25px;
+}
